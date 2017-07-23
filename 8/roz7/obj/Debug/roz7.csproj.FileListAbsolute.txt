@@ -1,0 +1,14 @@
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\bin\Debug\roz7.exe.config
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\bin\Debug\roz7.exe
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\bin\Debug\roz7.pdb
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7.csprojResolveAssemblyReference.cache
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\MainWindow.g.cs
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\App.g.cs
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7_MarkupCompile.cache
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7_MarkupCompile.lref
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\MainWindow.baml
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7.g.resources
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7.Properties.Resources.resources
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7.csproj.GenerateResource.Cache
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7.exe
+c:\users\mk169\documents\visual studio 2017\Projects\roz7\roz7\obj\Debug\roz7.pdb

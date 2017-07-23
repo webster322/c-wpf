@@ -1,0 +1,33 @@
+﻿<Window x:Class="roz3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:roz3"
+        mc:Ignorable="d"
+        Title="Rysowanie kwadratu" Height="500" Width="700" Background="LightGray">
+    <Grid>
+        <Label x:Name="lblBok" Content="Bok" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPole" Content="Pole" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblObwod" Content="Obwód" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBok" HorizontalAlignment="Left" Height="23" Margin="80,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtBok_TextChanged"/>
+        <TextBox x:Name="txtPole" HorizontalAlignment="Left" Height="23" Margin="80,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="txtObwod" HorizontalAlignment="Left" Height="23" Margin="80,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label x:Name="lblKomunikat" Content="Wpisz wymiar boku" HorizontalAlignment="Left" Margin="240,10,0,0" VerticalAlignment="Top" Width="442" Foreground="Red"/>
+        <Button x:Name="btnWyczysc" Content="Wyczyść" HorizontalAlignment="Left" Margin="80,220,0,0" VerticalAlignment="Top" Width="120" Click="btnWyczysc_Click" Height="30"/>
+        <Label x:Name="lblKolor" Content="Kolor" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbKolory" HorizontalAlignment="Left" Margin="80,92,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Black"/>
+            <ComboBoxItem Content="Red"/>
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Blue"/>
+        </ComboBox>
+        <Rectangle x:Name="rectangle1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="0" Margin="240,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="0"/>
+        <CheckBox x:Name="cbPrzezroczysty" Content="Półprzeźroczysty" HorizontalAlignment="Left" Margin="80,135,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnRysuj" Content="Rysuj" HorizontalAlignment="Left" Margin="80,175,0,0" VerticalAlignment="Top" Width="120" Height="30" Click="btnRysuj_Click"/>
+        <RadioButton x:Name="rbUkryj" Content="Ukryj" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" GroupName="Ukrywanie" Checked="rbUkryj_Checked"/>
+        <RadioButton x:Name="rbPokaz" Content="Pokaż" HorizontalAlignment="Left" Margin="140,305,0,0" VerticalAlignment="Top" GroupName="Ukrywanie" IsChecked="True" Checked="rbPokaz_Checked"/>
+
+    </Grid>
+</Window>
